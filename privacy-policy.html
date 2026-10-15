@@ -33,6 +33,7 @@
     a {
       color: #2563eb;
       text-decoration: none;
+      overflow-wrap: anywhere;
     }
     a:hover {
       text-decoration: underline;
@@ -52,23 +53,24 @@
 <body>
 
   <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: <time datetime="2026-10-15">October 15, 2026</time></p>
 
   <p>
-    This Privacy Policy explains how Buzzle Beads ("we", "our", or "us") handles information when you use our mobile game Buzzle Beads (the "App").
+    BLAZEDRAGON UNION INTERACTIVE ENTERTAINMENT LIMITED ("we", "our", or "us") operates Buzzle Beads: Color Puzzle ("Buzzle Beads" or the "App"). This Privacy Policy explains how information is collected, used, and shared when you use the App, including through its advertising and attribution services.
   </p>
 
   <p>
-    By using the App, you agree to the collection and use of information in accordance with this Privacy Policy.
+    This Policy describes our data practices and your choices. It does not replace any separate consent required for advertising, tracking, or other processing. Our <a href="terms-of-use.html">Terms of Use</a> govern use of the App.
   </p>
 
   <h2>1. Information We Collect</h2>
 
   <p>
-    We do not directly collect personal information such as your name, email address, phone number, home address, or payment card information.
+    The App does not require or offer account creation. If you contact us for support or to exercise a privacy right, we receive your email address, the contents of your message, and any name, device details, or other information you choose to provide. Please do not send passwords, payment-card details, or sensitive personal information.
   </p>
 
   <p>
-    However, the App uses third-party services for advertising, ad mediation, analytics, attribution, fraud prevention, app performance measurement, and crash diagnostics. These third-party services may automatically collect certain information from your device or your use of the App.
+    The App integrates third-party software development kits (SDKs), including Google Mobile Ads and mediated advertising SDKs, and AppsFlyer. These services may collect information automatically and transmit it directly to their providers for advertising, attribution, analytics, diagnostics, and fraud prevention. Device identifiers and IP addresses can be personal information even when no account is created.
   </p>
 
   <p>
@@ -76,17 +78,18 @@
   </p>
 
   <ul>
-    <li>Device identifiers, such as Advertising ID, IDFA, IDFV, or similar identifiers</li>
+    <li>Device and app identifiers, such as Android Advertising ID, App Set ID, AppsFlyer ID, and, where available and permitted on iOS, IDFA or IDFV</li>
     <li>Device information, such as device model, operating system, language, region, and screen size</li>
     <li>IP address and approximate location derived from IP address</li>
     <li>App usage data, such as sessions, gameplay activity, ad views, ad clicks, and interaction events</li>
     <li>Advertising data, such as ad impressions, ad requests, ad performance, and reward completion status</li>
+    <li>Attribution data, such as install and launch times, install referrer, campaign information, re-engagement, and selected in-app events</li>
     <li>Diagnostics data, such as crash logs, performance data, and technical error information</li>
-    <li>Purchase or transaction-related information if future versions of the App include in-app purchases</li>
+    <li>Advertising revenue events where configured and, if future versions include in-app purchases, limited transaction events such as product identifier, currency, and value; these SDK integrations do not provide us with full payment-card details</li>
   </ul>
 
   <p>
-    The exact information collected may depend on your device settings, consent choices, operating system, region, and the third-party services available in your country or region.
+    The exact information collected depends on the SDK version and configuration, selected events and partner integrations, device permissions, consent choices, operating system, and region. Not every field is collected from every user.
   </p>
 
   <h2>2. How We Use Information</h2>
@@ -99,37 +102,42 @@
     <li>To operate, maintain, and improve the App</li>
     <li>To provide advertisements, including rewarded video ads, interstitial ads, and banner ads</li>
     <li>To measure ad performance and prevent advertising fraud</li>
+    <li>To attribute installs, re-engagement, and selected in-app events to marketing campaigns</li>
     <li>To understand how users interact with the App</li>
     <li>To analyze gameplay balance, retention, and user experience</li>
     <li>To diagnose crashes, bugs, and technical issues</li>
+    <li>To respond to support, privacy, and data deletion requests</li>
     <li>To comply with legal obligations and platform requirements</li>
     <li>To protect the security and integrity of the App</li>
   </ul>
 
-  <h2>3. Advertising and Ad Mediation</h2>
+  <h2>3. Advertising and AdMob Mediation</h2>
 
   <p>
     Buzzle Beads is supported by advertising. The App may display rewarded video ads, interstitial ads, banner ads, and other ad formats.
   </p>
 
   <p>
-    We use AppLovin MAX as an ad mediation platform. Ad mediation helps manage and optimize ads from multiple advertising networks. Through mediation, advertising partners may receive certain device, usage, and advertising-related information in order to deliver ads, measure ad performance, prevent fraud, and comply with applicable laws.
+    We use Google AdMob Mediation as our ad mediation platform. Through the Google Mobile Ads SDK and mediation adapters, ad requests may be sent to Google and participating ad sources to select and display ads. Partners may process device, app, approximate-location, and ad-interaction information for ad delivery, measurement, frequency controls, and fraud prevention.
   </p>
 
   <p>
-    The App may use the following advertising and mediation services:
+    Our current advertising providers are:
   </p>
 
   <ul>
-    <li>AppLovin MAX</li>
-    <li>Google AdMob</li>
+    <li>Google AdMob and AdMob Mediation</li>
     <li>Unity Ads</li>
     <li>Meta Audience Network</li>
-    <li>Liftoff / Vungle</li>
+    <li>Liftoff Monetize (formerly Vungle)</li>
   </ul>
 
   <p>
     These partners may use cookies, mobile advertising identifiers, device identifiers, IP address, usage data, and other technologies to provide personalized or non-personalized ads, depending on your consent choices, device settings, region, and applicable law.
+  </p>
+
+  <p>
+    Google's SDK disclosures describe collection and sharing of IP address, app and ad interactions, diagnostics, and device or account identifiers for advertising, analytics, and fraud prevention. Mediated partners process information under their own policies. Ad availability and the partners receiving a particular request depend on our mediation configuration and applicable privacy choices.
   </p>
 
   <h2>4. Third-Party Service Providers</h2>
@@ -140,15 +148,15 @@
 
   <ul>
     <li>
-      AppLovin Privacy Policy:
-      <a href="https://legal.applovin.com/privacy/" target="_blank" rel="noopener noreferrer">
-        https://legal.applovin.com/privacy/
+      AppsFlyer Services Privacy Policy:
+      <a href="https://www.appsflyer.com/legal/services-privacy-policy/" target="_blank" rel="noopener noreferrer">
+        https://www.appsflyer.com/legal/services-privacy-policy/
       </a>
     </li>
     <li>
-      AppLovin Legal Information:
-      <a href="https://legal.applovin.com/" target="_blank" rel="noopener noreferrer">
-        https://legal.applovin.com/
+      AppsFlyer Customer Data Processing Information:
+      <a href="https://www.appsflyer.com/legal/processing-customer-data/" target="_blank" rel="noopener noreferrer">
+        https://www.appsflyer.com/legal/processing-customer-data/
       </a>
     </li>
     <li>
@@ -202,7 +210,17 @@
   </ul>
 
   <p>
-    AppLovin, Google AdMob, Unity Ads, Meta Audience Network, and Liftoff / Vungle each maintain their own privacy policies or advertising policies explaining how they collect and process data. AppLovin provides legal and privacy information for its services, Unity provides privacy information and consent APIs for Unity Ads, and Liftoff / Vungle provides privacy and ad information for its advertising services. 
+    These links explain each provider's practices. Providers may process information on our behalf or for purposes described in their own policies, depending on the service and applicable arrangements.
+  </p>
+
+  <h3>AppsFlyer Attribution and Analytics</h3>
+
+  <p>
+    We use AppsFlyer to measure installs, campaign attribution, re-engagement, selected in-app events, and marketing performance, and to help detect advertising fraud. Depending on our configuration and your privacy choices, AppsFlyer may process device and app identifiers, technical information, IP-derived approximate location, install and referral information, ad interactions, and selected event data.
+  </p>
+
+  <p>
+    For this processing, AppsFlyer acts as our data processor or service provider. We control the events measured and partner integrations enabled. Attribution results and event postbacks may be shared with advertising partners where we enable those integrations; adding an ad source to mediation does not by itself mean that every AppsFlyer event is shared with that source.
   </p>
 
   <h2>5. Personalized Ads and Non-Personalized Ads</h2>
@@ -222,7 +240,12 @@
   <ul>
     <li>On iOS, you can manage tracking permissions through Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
     <li>On Android, you can reset or delete your Advertising ID through your device privacy or ads settings.</li>
+    <li>You may contact us at the email below about available advertising, attribution, or data-processing opt-outs.</li>
   </ul>
+
+  <p>
+    Limiting personalized advertising does not remove ads or necessarily stop all measurement. Information may still be processed for contextual ads, security, fraud prevention, or other permitted purposes, subject to applicable law and your choices.
+  </p>
 
   <h2>6. App Tracking Transparency on iOS</h2>
 
@@ -241,7 +264,7 @@
   </p>
 
   <p>
-    Where required by law, you may have the ability to accept, reject, or manage your consent choices. You may also be able to withdraw or change your consent through in-app privacy settings, device settings, or consent management tools provided by advertising partners.
+    Where consent is required, your choice must be obtained separately; using the App or accepting its Terms is not itself consent to tracking. You can use the privacy or consent controls made available to you to manage your choices, or contact us for assistance. Withdrawal does not affect processing that lawfully occurred before withdrawal.
   </p>
 
   <h2>8. Legal Basis for Processing</h2>
@@ -260,11 +283,11 @@
   <h2>9. Data Sharing</h2>
 
   <p>
-    We do not sell your name, email address, phone number, or other directly identifying personal information because we do not directly collect such information.
+    We do not sell personal information for money. Some advertising disclosures may nevertheless qualify as a "sale," "sharing," or targeted advertising under applicable privacy laws; see the choices described in this Policy.
   </p>
 
   <p>
-    However, advertising and analytics partners may collect and process device identifiers, advertising identifiers, usage data, diagnostic data, approximate location, and other information as described in their own privacy policies.
+    Google AdMob, Meta Audience Network, Unity Ads, and Liftoff Monetize may receive advertising-related information. AppsFlyer processes attribution and analytics information and may send configured partner postbacks. These disclosures may include identifiers, usage and engagement data, diagnostics, and approximate location as described above. We may also disclose information to support providers or when required by law or to protect security and legal rights.
   </p>
 
   <p>
@@ -274,6 +297,7 @@
   <ul>
     <li>Ad delivery and ad mediation</li>
     <li>Ad measurement and reporting</li>
+    <li>Install and campaign attribution, selected event measurement, and configured partner postbacks</li>
     <li>Fraud prevention and security</li>
     <li>Analytics and app improvement</li>
     <li>Crash reporting and diagnostics</li>
@@ -283,11 +307,11 @@
   <h2>10. Data Retention</h2>
 
   <p>
-    We do not directly maintain user account profiles or store personal information on our own servers.
+    The App does not offer user accounts. This does not mean that no personal information is retained: support correspondence and information processed by our SDK providers may be stored outside the device.
   </p>
 
   <p>
-    Third-party service providers may retain information according to their own privacy policies, legal obligations, business needs, and data retention practices.
+    We retain information for as long as reasonably necessary for the purposes described in this Policy, including handling requests, operating and securing the App, resolving disputes, and meeting legal obligations. Retention varies by data type and purpose. Provider retention also depends on applicable service settings, agreements, and their policies; we do not promise a single retention period for every provider or data type.
   </p>
 
   <p>
@@ -315,7 +339,7 @@
   </p>
 
   <p>
-    By using the App, you understand that information may be transferred to and processed in countries where our service providers operate.
+    Cross-border processing is subject to applicable data-protection requirements and safeguards. Acceptance of the App's Terms is not a substitute for any separate consent required for a transfer.
   </p>
 
   <h2>13. Your Privacy Rights</h2>
@@ -334,7 +358,7 @@
   </ul>
 
   <p>
-    Because we do not directly maintain user accounts or user profiles, some requests may need to be directed to the relevant third-party service provider. You may contact us and we will make reasonable efforts to assist you.
+    You can contact us to exercise your rights even without an account. We may need limited information to identify the relevant records and verify your request. Where information is processed on our behalf, we will coordinate with the relevant provider, including AppsFlyer where applicable. Providers acting independently may also offer their own request mechanisms. You may have the right to complain to a data-protection authority where applicable.
   </p>
 
   <h2>14. California Privacy Notice</h2>
@@ -357,7 +381,7 @@
   </ul>
 
   <p>
-    We do not directly sell personal information. However, some third-party advertising practices may be considered a "sale" or "sharing" of personal information under certain privacy laws. You may use device settings, consent prompts, or partner-provided tools to opt out of personalized advertising or certain data sharing.
+    We do not sell personal information for money. However, some third-party advertising practices may be considered a "sale" or "sharing" of personal information under certain privacy laws. You may use available privacy controls or contact us to exercise applicable opt-out rights. Device settings and partner-provided tools may offer additional choices. We will not discriminate against you for exercising rights protected by applicable law.
   </p>
 
   <h2>15. Security</h2>
@@ -387,7 +411,7 @@
   </p>
 
   <p>
-    Your continued use of the App after any changes means that you accept the updated Privacy Policy.
+    Where required, we will provide additional notice of material changes and request consent for new processing that requires it.
   </p>
 
   <h2>18. Data Deletion Request</h2>
@@ -403,14 +427,13 @@
 
   <p>
     Please include the app name and your deletion request in the email.
-    We will review and process deletion requests where technically possible.
+    We may ask for limited device or app identifiers needed to locate the relevant records and verify your request. We will review the request, coordinate with providers processing information on our behalf where applicable, and respond in accordance with applicable law.
   </p>
 
   <p>
-    Some data may be retained if required for security, fraud prevention, legal compliance,
-    or legitimate business purposes.
+    Some data may be retained where an applicable legal exception permits or requires it, such as for security, fraud prevention, or legal compliance. Uninstalling the App or clearing local progress does not itself delete records already held by providers.
   </p>
-</section>
+
   <h2>19. Contact Us</h2>
 
   <p>
@@ -418,15 +441,15 @@
   </p>
 
   <p>
-    <strong>Email:</strong> postmaster@blazedragonsoul.xyz
+    <strong>Email:</strong> <a href="mailto:postmaster@blazedragonsoul.xyz">postmaster@blazedragonsoul.xyz</a>
   </p>
 
   <p>
-    <strong>App name:</strong> Buzzle Beads
+    <strong>App name:</strong> Buzzle Beads: Color Puzzle
   </p>
 
   <p>
-    <a href="index.html">Back to Home</a>
+    <a href="index.html">Back to Home</a> &middot; <a href="terms-of-use.html">Terms of Use</a>
   </p>
 
 </body>
